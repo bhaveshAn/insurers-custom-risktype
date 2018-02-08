@@ -36,12 +36,15 @@ npm run build --report
 **1. E-R Diagram**
 
 ![E-R Diagram](https://image.ibb.co/ePKKWH/E_R_diagram.png)
+
 **2. Homepage**
 
 ![Homepage](https://image.ibb.co/d184Fc/homepage.png)
+
 **3. Car Risk Type**
 
 ![car](https://image.ibb.co/iUhpWH/car.png)
+
 **4. House Risk Type**
 
 ![House](https://image.ibb.co/cN7v5c/house.png)
@@ -49,9 +52,11 @@ npm run build --report
 **5. Prize Risk Type**
 
 ![Prize](https://image.ibb.co/bJhZyx/prize.png)
+
 **6. Bike Risk Type**
 
 ![Bike](https://image.ibb.co/mr7jyx/bike.png)
+
 **7. Office Risk Type**
 
 ![Office](https://image.ibb.co/bXFq5c/office.png)
