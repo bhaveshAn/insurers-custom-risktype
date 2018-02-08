@@ -2,13 +2,13 @@
 
 > A Vue.js project
 
-##Decoupled Structure
+## Decoupled Structure
 
 - Flask Backend
 
 - Vue.js Frontend
 
-##Installation
+## Installation
  
 ``` bash
 
@@ -31,7 +31,7 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
-##Screenshots
+## Screenshots
 
 **1. E-R Diagram**
 
