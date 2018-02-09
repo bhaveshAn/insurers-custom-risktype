@@ -36,11 +36,6 @@ class RiskTypeDetail(Resource):
             fields.append(field_obj)
         response  = {"risk_type": risk_type.json(), 'fields': fields}
         return jsonify(response)
-        fields = [y for y in Field.query.filter_by(risk_type_id=_id).all()]
-        response  = {"risk_type": risk_type.json(), 'fields': "Hello"}
-        return response
-        #return {'risk_type': RiskType.query.filter_by(id=_id)}
-        return {'risk_type': risk_type.json(), 'fields': [y.json for y in Field.query.filter_by(risk_type_id=_id)]}
 
     def delete(self, _id):
         risk_type_obj = RiskType.query.filter_by(id=_id)
