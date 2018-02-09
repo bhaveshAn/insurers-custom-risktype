@@ -16,16 +16,16 @@ app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'mysecret'
 api = Api(app)
 
-# GET and POST
+# GET
 api.add_resource(RiskTypeList, '/v1/risk_types')
 
-# GET and POST
+# GET
 api.add_resource(FieldList, '/v1/fields')
 
-# GET, DELETE and PUT
+# GET, DELETE
 api.add_resource(RiskTypeDetail, '/v1/risk_type/<int:_id>')
 
-# GET, DELETE and PUT
+# GET, DELETE
 api.add_resource(FieldDetail, '/v1/field/<int:_id>')
 
 

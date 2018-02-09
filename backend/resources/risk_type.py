@@ -26,15 +26,6 @@ class RiskTypeList(Resource):
 class RiskTypeDetail(Resource):
 
     def get(self, _id):
-        '''
-        fields = [y.json for y in Field.query.filter_by(risk_type_id=_id)]
-        print(fields)
-        return {'risk_type': [x.json for x in RiskType.query.filter_by(id=_id)], 'fields': [y.json for y in Field.query.filter_by
-            (risk_type_id=_id).all()]}
-
-        if not fields:
-            return {'message': 'Field not found.'}, 404
-'''
         risk_type = RiskType.query.filter_by(id=_id).first()
         fields = []
         for field in Field.query.filter_by(risk_type_id=_id):

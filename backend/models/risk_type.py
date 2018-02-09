@@ -15,7 +15,7 @@ class RiskType(db.Model):
         db.session.commit()
 
     def commit(self):
-        self.commit()
+        db.session.commit()
 
     def json(self):
         return {
