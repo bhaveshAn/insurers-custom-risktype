@@ -39,7 +39,7 @@ npm run build --report
 http://localhost:5000/v1/risk_types
 
 # GET and POST Field
-http://localhost:5000/v1/risk_types
+http://localhost:5000/v1/fields
 
 # GET RiskTypeDetail
 http://localhost:5000/v1/risk_type/<int:id>
