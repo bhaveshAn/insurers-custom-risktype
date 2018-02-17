@@ -60,22 +60,42 @@ http://localhost:5000/v1/field/<int:id>
 
 **3. Car Risk Type**
 
-![car](https://image.ibb.co/iUhpWH/car.png)
+![car](https://image.ibb.co/bB4yO7/car_new.png)
 
 **4. House Risk Type**
 
-![House](https://image.ibb.co/cN7v5c/house.png)
+![House](https://image.ibb.co/e7bOqn/house_new.png)
 
-**5. Prize Risk Type**
+**5. Office Risk Type**
 
-![Prize](https://image.ibb.co/bJhZyx/prize.png)
+![Office](https://image.ibb.co/fVLzVn/office_new.png)
 
-**6. Bike Risk Type**
+**6. Bicycle Risk Type**
 
-![Bike](https://image.ibb.co/mr7jyx/bike.png)
+![Bicycle](https://image.ibb.co/ko3Q37/bicycle_new.png)
 
-**7. Office Risk Type**
+**7. Prize Risk Type**
 
-![Office](https://image.ibb.co/bXFq5c/office.png)
+![Prize](https://image.ibb.co/jSm6An/prize_new.png)
+
+**8. Table Risk Type**
+
+![Table](https://image.ibb.co/eFC7GS/table_new.png)
+
+**9. Chair Risk Type**
+
+![Table](https://image.ibb.co/jJS4Vn/chair_new.png)
 
 For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+
+
+
+
+
+
+
+
+
+
+
