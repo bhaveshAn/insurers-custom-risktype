@@ -38,8 +38,23 @@ npm run build --report
 # GET and POST RiskType
 http://localhost:5000/v1/risk_types
 
+# Example Body for POST
+{
+"name": "Car"
+}
+
+
 # GET and POST Field
 http://localhost:5000/v1/fields
+
+# Example Body for POST
+{
+"name": "Tyres",
+"type": "Integer",
+"value": 4,
+"risk_type_name": "Car"
+}
+
 
 # GET RiskTypeDetail
 http://localhost:5000/v1/risk_type/<int:id>
