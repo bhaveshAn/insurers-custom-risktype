@@ -31,6 +31,23 @@ npm run build
 # build for production and view the bundle analyzer report
 npm run build --report
 ```
+
+## API Endpoints
+``` bash
+
+# GET and POST RiskType
+http://localhost:5000/v1/risk_types
+
+# GET and POST Field
+http://localhost:5000/v1/risk_types
+
+# GET RiskTypeDetail
+http://localhost:5000/v1/risk_type/<int:id>
+
+# GET FieldDetail
+http://localhost:5000/v1/field/<int:id>
+```
+
 ## Screenshots
 
 **1. E-R Diagram**
