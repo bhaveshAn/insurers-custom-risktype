@@ -11,7 +11,7 @@ from resources.field import FieldDetail
 
 app = Flask(__name__)
 cors = CORS(app, resources={r"/*": {"origins": "*"}})
-app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', default='sqlite:///iws.db')
+app.config['SQLALCHEMY_DATABASE_URI'] = os.getenv('DATABASE_URL', default='sqlite:///db.sqlite3')
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 app.secret_key = 'mysecret'
 api = Api(app)

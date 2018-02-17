@@ -7,7 +7,6 @@ class RiskType(db.Model):
     name = db.Column(db.String(50))
 
     def __init__(self, name):
-        self.id = None,
         self.name = name
    
     def save(self):

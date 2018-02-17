@@ -12,7 +12,6 @@ class Field(db.Model):
 
 
     def __init__(self, name, _type, value, risk_type_id):
-        self.id = None
         self.name = name
         self.value = value
         self.type = _type
